@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+nav {
+  background: #002855;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: white;
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #002855;
+  color: white;
+}

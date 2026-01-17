@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects | Aditya Raj</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Research and technical projects by Aditya Raj, PhD Research Scholar in EECE, focusing on CMOS-MEMS sensors and VLSI systems.">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar">
+    <div class="container nav-flex">
+      <h1 class="logo">Aditya Raj</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PROJECTS INTRO ===== -->
+  <section class="section">
+    <div class="container">
+      <h2>Research & Technical Projects</h2>
+      <p>
+        This page highlights selected academic and technical projects
+        related to my research interests in CMOS-MEMS sensors,
+        VLSI systems, and low-power circuit design.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECT 1 ===== -->
+  <section class="section light-bg">
+    <div class="container">
+      <h3>CMOS-Compatible MEMS Sensor Interface Design</h3>
+      <p>
+        Designed and analyzed electronic readout circuits for CMOS-compatible
+        MEMS sensors, focusing on low-noise amplification and power-efficient
+        signal conditioning. The work involved circuit-level simulations
+        and evaluation of noise–power trade-offs.
+      </p>
+      <p><strong>Tools:</strong> Cadence Virtuoso, LTspice</p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECT 2 ===== -->
+  <section class="section">
+    <div class="container">
+      <h3>Low-Power Analog Front-End for Sensing Applications</h3>
+      <p>
+        Developed a low-power analog front-end architecture for sensor
+        signal acquisition, emphasizing low-noise performance and
+        energy efficiency. The project explored different biasing
+        techniques and circuit topologies.
+      </p>
+      <p><strong>Tools:</strong> Cadence Virtuoso, MATLAB</p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECT 3 ===== -->
+  <section class="section light-bg">
+    <div class="container">
+      <h3>VLSI System-Level Analysis for Integrated Sensors</h3>
+      <p>
+        Performed system-level analysis of integrated sensor architectures,
+        studying the interaction between MEMS devices, analog front-end
+        circuits, and digital processing blocks to optimize overall
+        system performance.
+      </p>
+      <p><strong>Focus:</strong> Noise, Power, Scalability</p>
+    </div>
+  </section>
+
+  <!-- ===== FUTURE PROJECTS ===== -->
+  <section class="section">
+    <div class="container">
+      <h3>Ongoing & Future Projects</h3>
+      <p>
+        Additional projects related to integrated sensing systems,
+        advanced MEMS interfaces, and mixed-signal VLSI designs
+        will be added as the research progresses.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        © 2026 Aditya Raj | Projects
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

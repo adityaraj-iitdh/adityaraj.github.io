@@ -282,4 +282,21 @@ section:hover {
   width: 0%;
   z-index: 999;
 }
+/* ===============================
+   DARK MODE
+================================ */
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark .navbar,
+body.dark .footer,
+body.dark .light-bg {
+  background: #020617;
+}
+
+body.dark a {
+  color: #60a5fa;
+}
 

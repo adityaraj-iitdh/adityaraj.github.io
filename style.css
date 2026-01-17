@@ -20,6 +20,7 @@
    BASE STYLES
 ================================ */
 body {
+   
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
   background: var(--background);
@@ -258,3 +259,27 @@ section.show {
     padding: 2rem 1.2rem;
   }
 }
+/* ===============================
+   SUBTLE HOVER EFFECTS
+================================ */
+section:hover {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.research-list li {
+  transition: transform 0.3s ease;
+}
+
+.research-list li:hover {
+  transform: translateX(6px);
+}
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  width: 0%;
+  z-index: 999;
+}
+

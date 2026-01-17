@@ -50,4 +50,10 @@ if (progressBar) {
 ====================================== */
 function toggleTheme() {
   document.body.classList.toggle("dark");
+
+  const btn = document.getElementById("themeBtn");
+  btn.textContent = document.body.classList.contains("dark")
+    ? "☀️"
+    : "🌙";
 }
+

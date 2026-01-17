@@ -84,6 +84,19 @@ nav a {
 nav a:hover {
   color: var(--accent);
 }
+/* ===============================
+   DARK MODE BUTTON FIX
+================================ */
+.theme-toggle {
+  margin-left: 1rem;        /* creates gap from Contact */
+  border-radius: 6px;
+  line-height: 1;
+}
+
+/* Better alignment inside navbar */
+nav {
+  align-items: center;
+}
 
 /* ===============================
    HERO SECTION
@@ -290,20 +303,69 @@ section:hover {
   z-index: 999;
 }
 /* ===============================
-   DARK MODE
+   FULL DARK MODE (GLOBAL)
 ================================ */
 body.dark {
-  background: #0f172a;
+  background-color: #020617;
   color: #e5e7eb;
 }
 
+/* Navbar & Footer */
 body.dark .navbar,
-body.dark .footer,
-body.dark .light-bg {
-  background: #020617;
+body.dark .footer {
+  background-color: #020617;
+  border-color: #1e293b;
 }
 
+/* Sections */
+body.dark .section {
+  background-color: #020617;
+}
+
+body.dark .light-bg {
+  background-color: #020617;
+}
+
+/* Headings */
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #f8fafc;
+}
+
+/* Paragraphs & lists */
+body.dark p,
+body.dark li {
+  color: #cbd5f5;
+}
+
+/* Links */
 body.dark a {
-  color: #60a5fa;
+  color: #93c5fd;
+}
+
+/* Buttons */
+body.dark .btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+body.dark .btn-outline {
+  border-color: #93c5fd;
+  color: #93c5fd;
+}
+
+/* Hero section */
+body.dark .hero {
+  background: linear-gradient(
+    to bottom,
+    #020617,
+    #020617
+  );
+}
+
+/* Progress bar */
+body.dark #progress-bar {
+  background-color: #60a5fa;
 }
 

@@ -137,6 +137,13 @@ nav a:hover {
   color: var(--accent);
   border: 1px solid var(--accent);
 }
+.theme-toggle {
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  background: transparent;
+}
+
 
 /* ===============================
    RESEARCH LIST

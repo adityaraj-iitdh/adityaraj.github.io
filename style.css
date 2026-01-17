@@ -305,46 +305,48 @@ section:hover {
 /* ===============================
    FULL DARK MODE (GLOBAL)
 ================================ */
+/* ===============================
+   FULL DARK MODE — FORCE ALL SECTIONS
+================================ */
+
 body.dark {
   background-color: #020617;
   color: #e5e7eb;
 }
 
-/* Navbar & Footer */
+/* NAVBAR & FOOTER */
 body.dark .navbar,
 body.dark .footer {
-  background-color: #020617;
+  background-color: #020617 !important;
   border-color: #1e293b;
 }
 
-/* Sections */
-body.dark .section {
-  background-color: #020617;
-}
-
+/* ALL SECTIONS (THIS IS THE KEY FIX) */
+body.dark section,
+body.dark .section,
 body.dark .light-bg {
-  background-color: #020617;
+  background-color: #020617 !important;
 }
 
-/* Headings */
+/* HEADINGS */
 body.dark h1,
 body.dark h2,
 body.dark h3 {
   color: #f8fafc;
 }
 
-/* Paragraphs & lists */
+/* TEXT */
 body.dark p,
 body.dark li {
   color: #cbd5f5;
 }
 
-/* Links */
+/* LINKS */
 body.dark a {
   color: #93c5fd;
 }
 
-/* Buttons */
+/* BUTTONS */
 body.dark .btn {
   background-color: #2563eb;
   color: #ffffff;
@@ -355,16 +357,12 @@ body.dark .btn-outline {
   color: #93c5fd;
 }
 
-/* Hero section */
+/* HERO (INDEX PAGE) */
 body.dark .hero {
-  background: linear-gradient(
-    to bottom,
-    #020617,
-    #020617
-  );
+  background: #020617 !important;
 }
 
-/* Progress bar */
+/* PROGRESS BAR */
 body.dark #progress-bar {
   background-color: #60a5fa;
 }
